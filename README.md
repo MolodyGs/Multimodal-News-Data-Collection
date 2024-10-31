@@ -24,7 +24,7 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
 
    ```bash
    python -m venv .venv
-   .venv/Scripts/activate;
+   .venv/Scripts/activate
    ```
 
 3. Instalación de Dependencias
@@ -32,5 +32,5 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
    Este procedimiento puede tomar entre 10 a 20 minutos despendiendo de la conectividad.
 
    ```bash
-   pip install -r requirements.txt;
+   pip install -r requirements.txt
    ```
