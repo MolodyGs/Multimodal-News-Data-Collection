@@ -34,3 +34,5 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
    ```bash
    pip install -r requirements.txt
    ```
+
+![Texto alternativo](src/models/models_conceptual_map.png)
