@@ -35,5 +35,5 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
    pip install -r requirements.txt
    ```
 
-Mapa Conceptual de Modelos
+Mapa Conceptual de Modelos<br>
 ![Texto alternativo](src/models/models_conceptual_map.png)
