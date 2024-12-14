@@ -37,4 +37,4 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
 
 ## Mapa Conceptual de Modelos
 
-![Texto alternativo](src/models/models_conceptual_map.png)
+![Mapa Conceptual](models_conceptual_map.png)
