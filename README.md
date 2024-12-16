@@ -35,6 +35,14 @@ Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([
    pip install -r requirements.txt
    ```
 
+## Utilización
+
+1. Obtener Paginas - `get_pages.ipynb`
+2. Modelo de Texto - `text_model.ipynb`
+3. Extracción de Texto en Imagenes - `text_extract_in_images.ipynb`
+4. Modelo Hibrido - `hybrid_model.ipynb`
+5. Modelo Multimodal - `multimodal_model.ipynb`
+
 ## Mapa Conceptual de Modelos
 
 ![Mapa Conceptual](models_conceptual_map.png)
