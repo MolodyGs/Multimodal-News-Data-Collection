@@ -1,3 +1,11 @@
+<style>
+   .center-image {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+   }
+</style>
+
 # A Multimodal Dataset of Fact-Checked News from Chile’s Constitutional Processes: Collection, Processing and Analysis
 
 The objective of this project is to develop multimodal models to analyze visual fake news disseminated on social media within the context of Chile's two constitutional processes. This initiative emerges as part of a broader research endeavor aimed at creating a computational framework for the extraction of multimodal narratives and the application of advanced language models, with a specific focus on detecting and understanding fake news.
@@ -40,18 +48,18 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 
 ## Text Model
 
-<div style="display: flex; justify-content: center; width: 100%;">
+<div class="center-image">
    <img src="src/assets/text_model.jpg" alt="text model" width="200">
 </div>
 
 ## Hybrid Model
 
-<div style="display: flex; justify-content: center; width: 100%;">
+<div class="center-image">
    <img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="350">
 </div>
 
 ## Multimodal Model
 
-<div style="display: flex; justify-content: center; width: 100%;">
+<div class="center-image">
    <img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="350">
 </div>
