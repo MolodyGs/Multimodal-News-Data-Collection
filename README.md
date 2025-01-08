@@ -1,48 +1,34 @@
-# Proyecto Capstone
+# Multimodal News Data Collection
+We aim to develop multimodal models to analyze visual fake news on social media in the context of Chile's two constitutional processes. This need arises within the development of a project focused on modeling multimodal narratives of fake news, which is the first part of a larger project that seeks to develop a computational framework based on multimodal narrative extraction techniques and advanced language models, also focused on fake news.
 
-Se desea desarrollar modelos multimodales para modelar fake news visuales en redes sociales en el contexto de los dos
-procesos constitucionales de Chile. Esta necesidad surge dentro del desarrollo de un proyecto de modelamiento de
-narrativas multimodales de noticias falsas, lo cual es una primera parte de un proyecto más grande, donde se pretende
-desarrollador un marco computaciones basado en técnicas multimodales de extracción de narrativas y modelos de
-lenguaje avanzado, enfocado también en fake news.
+The first step to extract narratives from the data requires an appropriate embeddings model that can capture the information contained in visual fake news and calculate the similarity between these publications, which will allow us to recognize the credibility of each news item based solely on its characteristics.
 
-El primer paso para poder extraer las narrativas desde los datos requiere de un modelo adecuado de embeddings que
-permita capturar la información contenida en las fake news visuales y calcular la similitud entre dichas publicaciones, lo
-cual permitirá reconocer verosimilitud de cada noticia basándonos solamente en las características de la misma.
+## Getting Started
+You need a version of **Python** equal to or greater than **3.11.9** ([download Python](https://www.python.org/downloads/)). Using **Visual Studio Code** is recommended.
 
-## Iniciar Proyecto
-
-Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([descargar python](https://www.python.org/downloads/)). Se recomienda utilizar **visual studio code**.
-
-1. Clonar Proyecto
-
+1. Clone Project
    ```bash
    git clone https://github.com/MolodyGs/CapstoneProject.git
    ```
 
-2. Crear un Entorno Virtual (si es necesario)
-
+2. Create a Virtual Environment (if needed)
    ```bash
    python -m venv .venv
    .venv/Scripts/activate
    ```
 
-3. Instalación de Dependencias
-
-   Este procedimiento puede tomar entre 10 a 20 minutos despendiendo de la conectividad.
-
+3. Install Dependencies
+   This procedure can take between 10 to 20 minutes depending on connectivity.
    ```bash
    pip install -r requirements.txt
    ```
 
-## Utilización
+## Usage
+1. Get Pages - `get_pages.ipynb`
+2. Text Model - `text_model.ipynb`
+3. Text Extraction from Images - `text_extract_in_images.ipynb`
+4. Hybrid Model - `hybrid_model.ipynb`
+5. Multimodal Model - `multimodal_model.ipynb`
 
-1. Obtener Paginas - `get_pages.ipynb`
-2. Modelo de Texto - `text_model.ipynb`
-3. Extracción de Texto en Imagenes - `text_extract_in_images.ipynb`
-4. Modelo Hibrido - `hybrid_model.ipynb`
-5. Modelo Multimodal - `multimodal_model.ipynb`
-
-## Mapa Conceptual de Modelos
-
-![Mapa Conceptual](models_conceptual_map.png)
+## Conceptual Map of Models (in Spanish)
+![Conceptual Map](models_conceptual_map.png)
