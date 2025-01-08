@@ -1,48 +1,45 @@
 # Proyecto Capstone
 
-Se desea desarrollar modelos multimodales para modelar fake news visuales en redes sociales en el contexto de los dos
-procesos constitucionales de Chile. Esta necesidad surge dentro del desarrollo de un proyecto de modelamiento de
-narrativas multimodales de noticias falsas, lo cual es una primera parte de un proyecto más grande, donde se pretende
-desarrollador un marco computaciones basado en técnicas multimodales de extracción de narrativas y modelos de
-lenguaje avanzado, enfocado también en fake news.
+The objective of this project is to develop multimodal models to analyze visual fake news disseminated on social media within the context of Chile's two constitutional processes. This initiative emerges as part of a broader research endeavor aimed at creating a computational framework for the extraction of multimodal narratives and the application of advanced language models, with a specific focus on detecting and understanding fake news.
 
-El primer paso para poder extraer las narrativas desde los datos requiere de un modelo adecuado de embeddings que
-permita capturar la información contenida en las fake news visuales y calcular la similitud entre dichas publicaciones, lo
-cual permitirá reconocer verosimilitud de cada noticia basándonos solamente en las características de la misma.
+The first phase of the project involves constructing an embedding model capable of effectively capturing the information contained in visual fake news. This model will facilitate the calculation of similarity metrics between such publications, enabling the identification of related events through the formation of semantic clusters. These clusters are expected to provide insights into the relationships and patterns underlying the dissemination of fake news.
 
-## Iniciar Proyecto
+This project represents a critical step towards the development of robust computational tools for analyzing and understanding the propagation of multimodal narratives in online ecosystems, with implications for combating misinformation at a societal level.
 
-Es necesario contar con una versión de **python** igual o mayor a **3.11.9** ([descargar python](https://www.python.org/downloads/)). Se recomienda utilizar **visual studio code**.
+## Project Setup
 
-1. Clonar Proyecto
+To start, ensure you have **Python** version **3.11.9** or higher installed ([download Python here](https://www.python.org/downloads/)). It is recommended to use **Visual Studio Code** as the development environment.
+
+1. Clone the Repository
 
    ```bash
    git clone https://github.com/MolodyGs/CapstoneProject.git
+
    ```
 
-2. Crear un Entorno Virtual (si es necesario)
+2. Create a Virtual Environment (if necessary)
 
    ```bash
    python -m venv .venv
    .venv/Scripts/activate
    ```
 
-3. Instalación de Dependencias
-
-   Este procedimiento puede tomar entre 10 a 20 minutos despendiendo de la conectividad.
+3. Install Dependencies
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Utilización
+## Usage
 
-1. Obtener Paginas - `get_pages.ipynb`
-2. Modelo de Texto - `text_model.ipynb`
-3. Extracción de Texto en Imagenes - `text_extract_in_images.ipynb`
-4. Modelo Hibrido - `hybrid_model.ipynb`
-5. Modelo Multimodal - `multimodal_model.ipynb`
+1. Retrieve Pages - get_pages.ipynb
+2. Text Modeling - text_model.ipynb
+3. Text Extraction from Images - text_extract_in_images.ipynb
+4. Hybrid Model - hybrid_model.ipynb
+5. Multimodal Model - multimodal_model.ipynb
 
-## Mapa Conceptual de Modelos
+## test
 
-![Mapa Conceptual](models_conceptual_map.png)
+![text model](assets/text_model.jpg)
+![hybrid model](assets/hybrid_model.jpg)
+![multimodal model](assets/multimodal_model.jpg)
