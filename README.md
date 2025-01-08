@@ -40,18 +40,18 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 
 ## Text Model
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
    <img src="src/assets/text_model.jpg" alt="text model" width="200" style="display: block; margin: auto;">
 </div>
 
 ## Hybrid Model
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
    <img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="350" style="display: block; margin: auto;">
 </div>
 
 ## Multimodal Model
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center; width: 100%;">
    <img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="350" style="display: block; margin: auto;">
 </div>
