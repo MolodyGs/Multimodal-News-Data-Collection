@@ -49,17 +49,17 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 ## Text Model
 
 <div class="center-image">
-   <img src="src/assets/text_model.pdf" alt="text model" width="200">
+   <img src="src/assets/text_model.jpg" alt="text model" width="200">
 </div>
 
 ## Hybrid Model
 
 <div class="center-image">
-   <img src="src/assets/hybrid_model.pdf" alt="hybrid model" width="350">
+   <img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="350">
 </div>
 
 ## Multimodal Model
 
 <div class="center-image">
-   <img src="src/assets/multimodal_model.pdf" alt="multimodal model" width="350">
+   <img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="350">
 </div>
