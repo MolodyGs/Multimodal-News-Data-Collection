@@ -40,6 +40,6 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 
 ## test
 
-![text model](assets/text_model.jpg)
-![hybrid model](assets/hybrid_model.jpg)
-![multimodal model](assets/multimodal_model.jpg)
+![text model](src/assets/text_model.jpg)
+![hybrid model](src/assets/hybrid_model.jpg)
+![multimodal model](src/assets/multimodal_model.jpg)
