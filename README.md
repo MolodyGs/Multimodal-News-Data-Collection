@@ -1,4 +1,4 @@
-# Proyecto Capstone
+# A Multimodal Dataset of Fact-Checked News from Chile’s Constitutional Processes: Collection, Processing and Analysis
 
 The objective of this project is to develop multimodal models to analyze visual fake news disseminated on social media within the context of Chile's two constitutional processes. This initiative emerges as part of a broader research endeavor aimed at creating a computational framework for the extraction of multimodal narratives and the application of advanced language models, with a specific focus on detecting and understanding fake news.
 
@@ -32,14 +32,20 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 
 ## Usage
 
-1. Retrieve Pages - get_pages.ipynb
-2. Text Modeling - text_model.ipynb
-3. Text Extraction from Images - text_extract_in_images.ipynb
-4. Hybrid Model - hybrid_model.ipynb
-5. Multimodal Model - multimodal_model.ipynb
+1. Retrieve Pages - **get_pages.ipynb**
+2. Text Modeling - **text_model.ipynb**
+3. Text Extraction from Images - **text_extract_in_images.ipynb**
+4. Hybrid Model - **hybrid_model.ipynb**
+5. Multimodal Model - **multimodal_model.ipynb**
 
-## test
+## Text Model
 
-<img src="src/assets/text_model.jpg" alt="text model" width="300">
-<img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="300">
-<img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="300">
+<img src="src/assets/text_model.jpg" alt="text model" width="200" style="display: block; margin: auto;">
+
+## Hybrid Model
+
+<img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="300" style="display: block; margin: auto;">
+
+## Multimodal Model
+
+<img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="300" style="display: block; margin: auto;">
