@@ -40,12 +40,18 @@ To start, ensure you have **Python** version **3.11.9** or higher installed ([do
 
 ## Text Model
 
-<img src="src/assets/text_model.jpg" alt="text model" width="200" style="display: block; margin: auto;">
+<div style="text-align: center;">
+   <img src="src/assets/text_model.jpg" alt="text model" width="200" style="display: block; margin: auto;">
+</div>
 
 ## Hybrid Model
 
-<img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="300" style="display: block; margin: auto;">
+<div style="text-align: center;">
+   <img src="src/assets/hybrid_model.jpg" alt="hybrid model" width="350" style="display: block; margin: auto;">
+</div>
 
 ## Multimodal Model
 
-<img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="300" style="display: block; margin: auto;">
+<div style="text-align: center;">
+   <img src="src/assets/multimodal_model.jpg" alt="multimodal model" width="350" style="display: block; margin: auto;">
+</div>
